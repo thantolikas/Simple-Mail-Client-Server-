@@ -1,0 +1,3 @@
+1. username: john@john.gr         password: john
+2. username: costas@costas.gr     password: costas
+3  username: thanasis@thanasis.gr password: thanasis
