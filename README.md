@@ -4,13 +4,13 @@ A simple client-server communication demo for email service.
 ENGLISH: 
 
 MailThread Class: 
-This class implements the Runnable interface so it can execute as a thread. In the contructor the neccessary variables for the input and output streams are being initialized. In the run() method a MailProtocol object is initialized and the server receives the input, proccess it and returns the correct answer. 
+This class implements the Runnable interface so it can execute as a thread. In the contructor the neccessary variables for the input and output streams are being initialized. In the run() method a MailProtocol object is initialized and the server receives the input, processes it and returns the correct answer. 
 
 MailClient Class:
 Is a representation of the client. In the contructor the neccessary variables for the input and output streams are being initialized and the connection with the server is being enstablished. The client then sends commands to the server and receives the answer, which is printed on the monitor. 
 
 MailProtocol Class:
-This class proccess the user input, using the processInput(String input) method, and returns the correct answer. A state variable is used, the value of which is being checked using multiple if-then statements and the neccessary commands are being executed.
+This class processes the user input, using the processInput(String input) method, and returns the correct answer. A state variable is used, the value of which is being checked using multiple if-then statements and the neccessary commands are being executed.
 
 EXECUTION PROCESS: 
 ~coming soon~
